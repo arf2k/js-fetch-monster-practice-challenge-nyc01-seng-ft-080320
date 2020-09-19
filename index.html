@@ -3,12 +3,45 @@
   <head>
     <meta charset="utf-8">
     <title>Monstr</title>
-    <!-- <script src='js/index.js'></script> -->
-    <script src='js/demo.js'></script>
+    <script src='js/index.js'></script>
+    <!-- <script src='js/demo.js'></script> -->
   </head>
   <body>
     <h1>Monstr Inc.</h1>
     <div id='create-monster'></div>
+    <h3>Create a Monster!</h3>
+    <form class="add-monster-form">
+    <input
+      type="text"
+      name="name"
+      value=""
+      placeholder="Enter a Monster's name..."
+      class="input-text"
+    />
+    <br />
+    <input
+      type="text"
+      name="age"
+      value=""
+      placeholder="Enter a monster's age..."
+      class="input-text"
+    />
+    <br />
+    <input
+      type="text"
+      name="description"
+      value=""
+      placeholder="Enter a monster's description..."
+      class="input-text"
+    />
+    <br />
+    <input
+      type="submit"
+      name="submit"
+      value="Create New Monster"
+      class="submit"
+    />
+
     <div id='monster-container'></div>
     <button id="back"><=</button>
     <button id="forward">=></button>
